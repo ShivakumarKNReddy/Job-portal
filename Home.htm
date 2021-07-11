@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>   
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />  
+    
+  <title>Home page of job-portal</title>
+</head>
+<body>
+
+  <!-- Creation of header -->
+    <div class="header" ><b >NO.1 JOB PORTAL</b> 
+      <img src="./logo.PNG" style="height: 50px;width: 100px;border-radius: 3px;"> </a>
+    
+      
+
+      
+
+        <!-- Creating navigation -->
+        <div class="container">
+          <div class="navigation">
+          <div class="dropdown0">
+          <button href="./working.htm" class="dropbtn0"><b>JOBS</b></button> 
+          <div class="dropdown-content0">
+          </div>  
+          </div> 
+
+          <div class="dropdown1">
+          <button  class="dropbtn1"><b>WORK-FROM-HOME</b> <sup><span class="badge badge-pill badge-success">New</span></sup></button>
+          <div class="dropdown-content1">
+            <a href="./working.htm">Banglore</a>
+            <a href="./working.htm">Goregaon</a>
+            <a href="./working.htm">Hyderabad</a>
+            </div>  
+          </div>    
+      
+
+          <div class="dropdown2">
+            <button  class="dropbtn2"><b>RECUITERS</b></button>
+            <div class="dropdown-content2">
+              <a href="./working.htm">Browse All Recuiters</a>
+              <a href="./working.htm">Recuter Connection</a>
+              <a href="./working.htm">Goto Recuiter Page</a>
+              </div>  
+            </div>    
+
+            <div class="dropdown3">
+              <button  class="dropbtn3"><b>COMPANIES</b></button>
+              <div class="dropdown-content3">
+                <a href="./working.htm">Browse All Companies</a>
+                <a href="./working.htm">About Companies</a>
+                <a href="./working.htm">Interview Questions</a>
+                <a href="./working.htm">Write Company Review</a>
+                <a href="./working.htm">Write Interview Advice</a>
+                <a href="./working.htm">Company Reviews</a>
+                <a href="./working.htm">Company Salaries</a>
+
+                </div>  
+              </div> 
+
+              <div class="dropdown4">
+                <button  class="dropbtn4"><b>SERVICES</b></button>
+                <div class="dropdown-content4">
+                  <a href="./working.htm">Resume Writing</a>
+                  <a href="./working.htm">Courses/Certifications</a>
+                  <a href="./working.htm">Recuiters Reach</a>
+                  </div>  
+                </div> 
+
+                <div class="dropdown5">
+                  <button  class="dropbtn5"><b>TOOLS</b></button>
+                  <div class="dropdown-content5">
+                    <a href="./working.htm">Account Settings</a>
+                    <a href="./working.htm">Carrier Dashboard</a>
+                    </div>  
+                  </div> 
+
+                  <div class="dropdown6">
+                    <button  class="dropbtn6"><b><a href="./working.htm" style="text-decoration: none;color: black;">LOG-IN</a></b></button>
+                    <div class="dropdown-content6">
+                      </div>  
+                    </div> 
+
+                    <div class="dropdown7">
+                      <button  class="dropbtn7"><b>FOR EMPLOYERS</b></button>
+                      <div class="dropdown-content7">
+                        <a href="./working.htm">Employer Log-in</a>
+                        <a href="./working.htm">Buy Online</a>
+                        <a href="./working.htm">Post a Job</a>
+                        </div>  
+                      </div> 
+        
+      
+
+                
+
+             <!-- <a href="./working.htm"><b>RECUITERS</b></a>
+               <a href="./working.htm"><b>COMPANIES</b></a>
+              <a href="./working.htm"><b>SERVICES</b></a>
+            <a href="./working.htm"><b>TOOLS</b></a>
+             <a href="./working.htm"><b>LOG-IN</b></a>
+           <a href="./working.htm"><b>EMPLOYER</b></a> -->
+
+          </div>
+        </div> 
+        <!-- End of navigation -->
+
+                                <!-- Creating a Hire button -->
+                                <div class="container" style="text-shadow: none;color: black;">
+                                  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" 
+                                   id="b1">
+                                    <a href="./working.htm" style="text-decoration: none;color: white;transition: width 2s, height 4s;"><b>Want to hire for FREE?</b></a> </button>
+                                    
+                                    <!-- The Modal -->
+                                      <div class="modal" id="myModal">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content" style="background-image: url('./register.jpg');background-color: #cccccc;
+                                          background-position: center;
+                                          background-repeat: no-repeat;
+                                          background-size: cover;
+                                          position: relative;
+                                          margin-bottom: 10px;">
+                                          
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                              <h1 class="modal-title">Registration Here:</h1>
+                                              <button type="button" class="close" data-dismiss="modal">×</button>
+                                            </div>
+                                            
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                              <div class="container">
+                                    
+                                      <form action="register" class="was-validated" method="POST" style="font-size: 25px;">
+                                        <div class="form-group">
+                                          <label for="uname">First Name:</label>
+                                          <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="uname">Last Name:</label>
+                                          <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="uname">Email ID:</label>
+                                          <input type="email" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="uname">Mobile Number:</label>
+                                          <input type="number" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="pwd">Choose a Password:</label>
+                                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="pwd">Re-enter Password:</label>
+                                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group form-check">
+                                          <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="remember" required >  
+                                            <a href="./working.htm" style="text-decoration:none;color: black;font-size: 15px;">I agree on Terms and Conditions.</a>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Check this checkbox to continue.</div>
+                                          </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                      </form>
+                                    </div>
+
+                                            
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                                        <!-- end of hire button -->
+
+                                        <!-- Creating searching job buttton -->
+                                        <div class="container">
+                                          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal" 
+                                          id="b2">
+                                        <a href="./working.htm" style="text-decoration: none;color: white;"><b>Are you searching for a JOB?</b></button>
+                                        
+                                          <!-- The Modal -->
+                                      <div class="modal" id="myModal">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content" style="background-image: url('./register.jpg');background-color: #cccccc;
+                                          background-position: center;
+                                          background-repeat: no-repeat;
+                                          background-size: cover;
+                                          position: relative;
+                                          margin-bottom: 10px;">
+                                          
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                              <h1 class="modal-title">Registration Here:</h1>
+                                              <button type="button" class="close" data-dismiss="modal">×</button>
+                                            </div>
+                                            
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                              <div class="container">
+                                    
+                                      <form action="register" class="was-validated" method="POST" style="font-size: 25px;">
+                                        <div class="form-group">
+                                          <label for="uname">First Name:</label>
+                                          <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="uname">Last Name:</label>
+                                          <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="uname">Email ID:</label>
+                                          <input type="email" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="uname">Mobile Number:</label>
+                                          <input type="number" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="pwd">Choose a Password:</label>
+                                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="pwd">Re-enter Password:</label>
+                                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                                          <div class="valid-feedback">Valid.</div>
+                                          <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group form-check">
+                                          <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" name="remember" required >  
+                                            <a href="./working.htm" style="text-decoration:none;color: black;font-size: 15px;">I agree on Terms and Conditions.</a>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Check this checkbox to continue.</div>
+                                          </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                      </form>
+                                    </div>
+
+                                            
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                                        </div>
+                                        <!-- end of serch bar button -->
+
+        
+  </div>
+  
+
+    <!-- End of header -->
+
+  <!-- Notification creation -->
+  <div class="container">
+    <small id="div1"><a href="./working.htm" style="text-decoration: none;"><b>AINE AI</b> Is Hiring for front end developer<span class="badge badge-pill badge-success">New</span></a> </small>
+  </div>
+<!-- End of notification  -->
+
+         
+
+    <!-- job search otpion -->
+    <div class="container">
+
+        <div class="part1">
+          <div class="part1 a1">
+            <h3>Find a job at India's N0.1 Job site.</h3>
+              <form class="form-inline" action="/action_page.php">
+              
+                <input type="text" class="form-control" id="searchInput" placeholder="Skills, Designations, Companies" name="searchInput">
+                
+                <input type="text" class="form-control" id="locationInput" placeholder="Enter Locations..." name="locationInput">
+                <button type="submit" class="btn btn-primary">Search</button>
+              </form>
+          </div>
+  
+          <div class="part1 a2">
+            <h5>Worried about the jobs!!</h5>
+            <p style="font-size: 12px;">You are one step away to get it.</p>
+            
+            <button style="display:block;width:120px; height:30px;float:left;" class="btn btn-success btn-sm" onclick="document.getElementById('getFile').click()">Upload Your CV</button><br><br>
+            <input type='file' id="getFile" style="display:none;">
+            <figcaption style="font-size: 9.5px;color: black;float: left;">(Max 2MB, doc, docx, rtf, pdf)</figcaption>
+
+            <div class="container">
+              <button type="button" class="btn btn-warning btn-sm" id="animation">Login</button> 
+            </div> 
+           
+          </div>
+        </div>
+
+    </div>
+    <!-- End of job search -->
+  
+    <!-- Creatng recommended jobs -->
+    <div class="container">
+      <div class="part2">
+          <div class="part2 a2">
+            <h3>Recommended jobs
+              <sup><img src="./fire.jpg" style="width: 20px;height: 20px;border-radius: 8px;"></span></sup>
+            </h3>
+          </div>
+          <div class="part2 a3">
+            <h3><a href="./working.htm" style="text-decoration:none;color: blue;">View more jobs<i class="bi bi-arrow-right-circle-fill"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+              </svg></a></h3>
+          </div>
+        
+        <!-- <h4 style="float: right;margin-top: 0px;">View all jobs</h4> -->
+        <a href="./working.htm">
+          <div class="part2 a1">
+            Immediate opening for sales manager.<br><br>
+            <i class="bi bi-geo-alt-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg>
+            Isit office space solution pvt ltd.<br>
+            Banglore.
+          </div>
+        </a>
+        <a href="./working.htm">
+          <div class="part2 a1">
+            Immediate opening for Design Engineer.<br><br>
+            <i class="bi bi-geo-alt-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg>
+            Greenray Interiors pvt lt.<br>
+            Banglore.
+          </div>
+        </a>
+        <a href="./working.htm">
+          <div class="part2 a1">
+            Immediate opening for Front end developer.<br><br>
+            <i class="bi bi-geo-alt-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg>
+            Replicon pvt ltd. Bellanduru,<br>
+            Banglore.
+          </div>
+        </a>
+        <a href="./working.htm">
+          <div class="part2 a1">
+            Immediate opening for Business Development Manager.<br><br>
+            <i class="bi bi-geo-alt-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg>
+            Himalaya Drug Company, Makali,Banglore.<br>
+            
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- End of recommended job  -->
+
+    <!-- advertising of placed people -->
+
+    <div class="container">
+      <div class="toast" data-autohide="false"  style="float:right;margin: 10px;">
+        <div class="toast-header">
+          <strong class="mr-auto text-primary">Ms.Kavya:</strong>
+          <p class="text-muted">2 hours ago</p>
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" style="color: red;">&times;</button>
+        </div>
+        <div class="toast-body">
+          <a href = "#">Recently placed in Capgemini</a>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+    $(document).ready(function(){
+      $('.toast').toast('show');
+    });
+    </script>
+         
+    <div class="container">
+      <div class="toast" data-autohide="false"  style="float:right;margin: 10px;">
+        <div class="toast-header">
+          <strong class="mr-auto text-primary">Mr.Praveen:</strong>
+          <p class="text-muted">1 day ago</p>
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" style="color: red;">&times;</button>
+        </div>
+        <div class="toast-body">
+          <a href = "#">Recently placed in Relicon</a>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+    $(document).ready(function(){
+      $('.toast').toast('show');
+    });
+    </script>
+       
+    <div class="container">
+      <div class="toast" data-autohide="false"  style="float:right;margin: 10px;">
+        <div class="toast-header">
+          <strong class="mr-auto text-primary">Mr.Arjun:</strong>
+          <p class="text-muted">2 days ago</p>
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" style="color: red;">&times;</button>
+        </div>
+        <div class="toast-body">
+          <a href = "#">Recently placed in Eagle-view</a>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+    $(document).ready(function(){
+      $('.toast').toast('show');
+    });
+    </script>
+    
+    <div class="container">
+      <div class="toast" data-autohide="false"  style="float:right;margin: 10px;">
+        <div class="toast-header">
+          <strong class="mr-auto text-primary">Mr.Ramanji:</strong>
+          <p class="text-muted">3 days ago</p>
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" style="color: red;">&times;</button>
+        </div>
+        <div class="toast-body">
+          <a href = "#">Recently placed in L&T.</a>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+    $(document).ready(function(){
+      $('.toast').toast('show');
+    });
+    </script>
+           
+    <div class="container">
+      <div class="toast" data-autohide="false"  style="float:right;margin: 10px;">
+        <div class="toast-header">
+          <strong class="mr-auto text-primary">Ms.Nayana:</strong>
+          <p class="text-muted">8 days ago</p>
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" style="color: red;">&times;</button>
+        </div>
+        <div class="toast-body">
+          <a href = "#">Recently placed in NTT Data</a>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+    $(document).ready(function(){
+      $('.toast').toast('show');
+    });
+    </script>
+
+    <!-- end of advertising -->
+
+    <!-- Creating automatic image changing -->
+    <div class="container">
+      <div class="part3">
+        <center>
+          <h4 style="text-align: center;color: blue;background-color: lightyellow;width: 260px;border-radius: 5px;">Companies hiring now</h4>
+        </center>
+        <div class="part3 a1">
+
+          <div class="slideshow-container1">
+
+            <div class="mySlides1 fade1">
+              <div class="numbertext1"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/amazon logo.jpg" >
+              </a>
+          
+            </div>
+          
+            <div class="mySlides1 fade1">
+              <div class="numbertext1"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/Cognizant_Technology_Solutions_Corp_Logo.png"  >
+              </a>
+          
+            </div>
+          
+            <div class="mySlides1 fade1" >
+              <div class="numbertext1"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/fis logo.png"  >
+              </a>
+          
+            </div>
+          
+            </div>
+          
+            <div style="text-align:center">
+              <span class="dot1" style="height: 0px;width: 0px;"></span> 
+              <span class="dot1" style="height: 0px;width: 0px;"></span> 
+              <span class="dot1" style="height: 0px;width: 0px;"></span> 
+            </div>
+          
+            <script>
+            var slideIndex1 = 0;
+            showSlides1();
+          
+            function showSlides1() {
+              var i1;
+              var slides1 = document.getElementsByClassName("mySlides1");
+              var dots1 = document.getElementsByClassName("dot1");
+              for (i1 = 0; i1 < slides1.length; i1++) {
+                slides1[i1].style.display = "none";  
+              }
+              slideIndex1++;
+              if (slideIndex1> slides1.length) {slideIndex1 = 1}    
+              for (i1 = 0; i1 < dots1.length; i1++) {
+                dots1[i1].className = dots1[i1].className.replace(" active", "");
+              }
+              slides1[slideIndex1-1].style.display = "block";  
+              dots1[slideIndex1-1].className += " active";
+              setTimeout(showSlides1, 2500); // Change image every 2.5 seconds
+            }
+            </script>
+        </div>
+        <div class="part3 a1">
+
+          <div class="slideshow-container2"> 
+
+            <div class="mySlides2 fade2">
+              <div class="numbertext2"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/Flipkart-Picture.jpg"  >
+              </a>
+          
+            </div>
+          
+            <div class="mySlides2 fade2">
+              <div class="numbertext2"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/GenpactLogo-640x360.png"  >
+              </a>
+          
+            </div>
+          
+            <div class="mySlides2 fade2">
+              <div class="numbertext2"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/Infosys_Logo.jpg"  >
+              </a>
+          
+            </div>
+          
+            </div>
+          
+            <div style="text-align:center">
+              <span class="dot2" style="height: 0px;width: 0px;"></span> 
+              <span class="dot2" style="height: 0px;width: 0px;"></span> 
+              <span class="dot2" style="height: 0px;width: 0px;"></span> 
+            </div>
+          
+            <script>
+            var slideIndex2 = 0;
+            showSlides2();
+          
+            function showSlides2() {
+              var i2;
+              var slides2 = document.getElementsByClassName("mySlides2");
+              var dots2 = document.getElementsByClassName("dot2");
+              for (i2 = 0; i2 < slides2.length; i2++) {
+                slides2[i2].style.display = "none";  
+              }
+              slideIndex2++;
+              if (slideIndex2 > slides2.length) {slideIndex2 = 1}    
+              for (i2 = 0; i2 < dots2.length; i2++) {
+                dots2[i2].className = dots2[i2].className.replace(" active", "");
+              }
+              slides2[slideIndex2-1].style.display = "block";  
+              dots2[slideIndex2-1].className += " active";
+              setTimeout(showSlides2, 3000); // Change image every 3 seconds
+            }
+            </script>
+        </div>
+        <div class="part3 a1">
+          <div class="slideshow-container3">
+
+            <div class="mySlides3 fade3">
+              <div class="numbertext3"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/TCS_Logo.jpg"   >
+              </a>
+          
+            </div>
+          
+            <div class="mySlides3 fade3">
+              <div class="numbertext3"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/tech-mahindra-logo.png"   >
+              </a>
+          
+            </div>
+          
+            <div class="mySlides3 fade3">
+              <div class="numbertext3"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/Aine logo.png"   >
+              </a>
+          
+            </div>
+          
+            </div>
+          
+            <div style="text-align:center">
+              <span class="dot3" style="height: 0px;width: 0px;"></span> 
+              <span class="dot3" style="height: 0px;width: 0px;"></span> 
+              <span class="dot3" style="height: 0px;width: 0px;"></span> 
+            </div>
+          
+            <script>
+            var slideIndex3 = 0;
+            showSlides3();
+          
+            function showSlides3() {
+              var i3;
+              var slides3 = document.getElementsByClassName("mySlides3");
+              var dots3 = document.getElementsByClassName("dot3");
+              for (i3 = 0; i3 < slides3.length; i3++) {
+                slides3[i3].style.display = "none";  
+              }
+              slideIndex3++;
+              if (slideIndex3 > slides3.length) {slideIndex3 = 1}    
+              for (i3 = 0; i3 < dots3.length; i3++) {
+                dots3[i3].className = dots3[i3].className.replace(" active", "");
+              }
+              slides3[slideIndex3-1].style.display = "block";  
+              dots3[slideIndex3-1].className += " active";
+              setTimeout(showSlides3, 2000); // Change image every 2 seconds
+            }
+            </script>
+        </div>
+        <div class="part3 a1">
+          <div class="slideshow-container4">
+
+            <div class="mySlides4 fade4">
+              <div class="numbertext4"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/Prestige logo.jpg"    >
+              </a>
+          
+            </div>
+          
+            <div class="mySlides4 fade4">
+              <div class="numbertext4"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/shobha developers logo.jpg"    >
+              </a>
+          
+            </div>
+          
+            <div class="mySlides4 fade4">
+              <div class="numbertext4"></div>
+              <a href="./working.htm">
+                <img src="../Job-search page/companies-logo/L&T logo.jpg"    >
+              </a>
+          
+            </div>
+          
+            </div>
+          
+            <div style="text-align:center">
+              <span class="dot4" style="height: 0px;width: 0px;"></span> 
+              <span class="dot4" style="height: 0px;width: 0px;"></span> 
+              <span class="dot4" style="height: 0px;width: 0px;"></span> 
+            </div>
+          
+            <script>
+            var slideIndex4 = 0;
+            showSlides4();
+          
+            function showSlides4() {
+              var i4;
+              var slides4 = document.getElementsByClassName("mySlides4");
+              var dots4 = document.getElementsByClassName("dot4");
+              for (i4 = 0; i4 < slides4.length; i4++) {
+                slides4[i4].style.display = "none";  
+              }
+              slideIndex4++;
+              if (slideIndex4 > slides4.length) {slideIndex4 = 1}    
+              for (i4 = 0; i4 < dots4.length; i4++) {
+                dots4[i4].className = dots4[i4].className.replace(" active", "");
+              }
+              slides4[slideIndex4-1].style.display = "block";  
+              dots4[slideIndex4-1].className += " active";
+              setTimeout(showSlides4, 3500); // Change image every 3.5 seconds
+            }
+            </script>
+        </div>
+        </div>
+      </div>
+    
+    <!-- End of automatic image changing -->
+
+      <!-- Creating carousel -->
+
+    <div class="container">
+      <div class="part4">
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+          <li data-target="#demo" data-slide-to="4"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./different domain jobs/business.jpeg" alt="Los Angeles" width="1100" height="400">
+            <div class="carousel-caption">
+              <h3>Business jobs</h3>
+              <p>Assembling the meetings  </p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./different domain jobs/construction.jpg" alt="Chicago" width="1100" height="400">
+            <div class="carousel-caption">
+              <h3>Construction Jobs</h3>
+              <p>Constructing the building</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./different domain jobs/IT work.jpeg" alt="New York" width="1100" height="400">
+            <div class="carousel-caption" >
+              <h3>IT jobs</h3>
+              <p>IT people works inteligently</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./different domain jobs/delivery jobs.jpg" alt="New York" width="1100" height="400">
+            <div class="carousel-caption" style="color: blue;">
+              <h3>Delivery jobs</h3>
+              <p>Ease of delivery</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./different domain jobs/finance jobs.png" alt="New York" width="1100" height="400">
+            <div class="carousel-caption" style="color: blue;">
+              <h3>Finance jobs</h3>
+              <p>A very planned job</p>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+    </div>
+    </div>
+
+    <!-- End of carousel -->
+
+
+    <!-- Creating Additional information page -->
+  
+    <div class="part-additional">
+      <div class="container">
+
+                  <div class="part-additional a1">
+                            
+                            <h4>Information</h4>
+                            <ul>
+                              <li><a href="./working.htm" style="text-decoration:none">About Us</a></li>
+                              <li><a href="./working.htm">Terms & Conditions</a></li>
+                              <li><a href="./working.htm">Careers with us</a></li>
+                              <li><a href="./working.htm">Sitemap</a></li>
+                              <li><a href="./working.htm">Contact Us</a></li>
+                              <li><a href="./working.htm">FAQs</a></li>
+                              <li><a href="./working.htm">Summons/Notices</a></li>
+                              <li><a href="./working.htm">Grievances</a></li>
+                              <li><a href="./working.htm">Fraud Alert</a></li>
+                              <li><a href="./working.htm">Trust and Safety</a></li>
+                            </ul>
+                            <h4>XYZ on Mobile</h4>
+                              <ul>
+                                <li><a href="./working.htm"><img src="./google-play.jpg" style="width: 100px;height: 50px;"></a></li>
+                                <li><a href="./working.htm"><img src="./App-store.png" style="width: 100px;height: 40px;"></a></li>
+                              </ul>
+                  </div>
+
+                  <div class="part-additional a1">
+                            <h4>Jobseekers</h4>
+
+                            <ul>
+                              <li><a href="./working.htm">Register Now</a></li>
+                              <li><a href="./working.htm">Search Jobs</a></li>
+                              <li><a href="./working.htm">Login</a></li>
+                              <li><a href="./working.htm">Create Job Alert</a></li>
+                              <li><a href="./working.htm">Report a Problem</a></li>
+                              <li><a href="./working.htm">XYZ blogs</a></li>
+                              <li><a href="./working.htm">Mobile Site</a></li>
+                            </ul>
+                            <h4>Browse Jobs</h4>
+                            <ul>
+                              <li><a href="./working.htm">Browse All Jobs</a></li>
+                              <li><a href="./working.htm">Premium MBA Jobs</a></li>
+                              <li><a href="./working.htm">Premium Engineering Jobs</a></li>
+                              <li><a href="./working.htm">Govt. Jobs</a></li>
+                              <li><a href="./working.htm">International Jobs</a></li>
+                              <li><a href="./working.htm">Jobs by Company</a></li>
+                              <li><a href="./working.htm">Jobs by Category</a></li>
+                              <li><a href="./working.htm">Jobs by Designation</a></li>
+                              <li><a href="./working.htm">Jobs by Skill</a></li>
+                              <li><a href="./working.htm">Jobs by Location</a></li>
+                            </ul>
+
+                             
+                  </div>
+
+                  <div class="part-additional a1">
+                            <h4>Jobseekers services</h4>
+
+                            <ul>
+                              <li><a href="./working.htm">Priority Applicant</a></li>
+                              <li><a href="./working.htm">Resume Display</a></li>
+                              <li><a href="./working.htm">Resume Writing</a></li>
+                              <li><a href="./working.htm">Jobs2U</a></li>
+                              <li><a href="./working.htm">Recruiter Connection</a></li>
+                            </ul>
+                            <h4>XYZ learning</h4>
+                            <ul>
+                              <li><a href="./working.htm">Software and Technology</a></li>
+                              <li><a href="./working.htm">Artificial Intelligence and Data Science</a></li>
+                              <li><a href="./working.htm">Management</a></li>
+                              <li><a href="./working.htm">Finance</a></li>
+                              <li><a href="./working.htm">Creativity and Design</a></li>
+                              <li><a href="./working.htm">Emerging Technoligies</a></li>
+                              <li><a href="./working.htm">Health Care</a></li>
+                              <li><a href="./working.htm">Energy and Enivronment</a></li>
+                              <li><a href="./working.htm">Social Sciences</a></li>
+                              <li><a href="./working.htm">Persnal Growth</a></li>
+                            </ul>   
+                  </div>
+
+                  <div class="part-additional a1">
+                            <h4>Employers</h4>
+
+                            <ul>
+                              <li><a href="./working.htm">JOb Posting</a></li>
+                              <li><a href="./working.htm">Resume Database Access</a></li>
+                              <li><a href="./working.htm">Recruiter Login</a></li>
+                              <li><a href="./working.htm">Buy Resume Packages Online</a></li>
+                              <li><a href="./working.htm">Transition Services</a></li>
+                              <li><a href="./working.htm">Report a Problem</a></li>
+                              <li><a href="./working.htm">Summons/Notices</a></li>
+                              <li><a href="./working.htm">Grievances</a></li>
+                              <li><a href="./working.htm">Fraud Alert</a></li>
+                              <li><a href="./working.htm">Trust and Safety</a></li>
+                            </ul>
+                            <h4>Endeavour Boxes</h4>
+                            <ul>
+                              <li><a href="./working.htm">Interview Questions</a></li>
+                              <li><a href="./working.htm">About Companies</a></li>
+                              <li><a href="./working.htm">Share Interview Advice</a></li>
+                              <li><a href="./working.htm">Write Company Reveiw</a></li>
+                              <li><a href="./working.htm">Company Reviews</a></li>
+                              <li><a href="./working.htm">Company Salaries</a></li><br>
+                              <li>Follow us</li>
+                              <a href="./working.htm"><img src="./Social media logo/facebook logo.png" style="width: 50px;height: 50px;"></a>
+                              <a href="./working.htm"><img src="./Social media logo/instagram logo.png" style="width: 50px;height: 50px;"></a>
+                              <a href="./working.htm"><img src="./Social media logo/twitter logo.png" style="width: 50px;height: 50px;"></a>
+                              <a href="./working.htm"><img src="./Social media logo/linkedIn logo.png" style="width: 50px;height: 50px;"></a>
+                            </ul> 
+
+                            
+                             
+                             
+                       
+                            
+                  </div>
+    </div>  
+  </div>
+   
+
+      <!-- End of Additional information page -->
+
+
+      <!-- Starting of a footer -->
+      <div class="footer">
+        @Not Yet Decided
+      </div>
+</body>
+
+</html>

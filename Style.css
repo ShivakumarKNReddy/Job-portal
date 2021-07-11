@@ -1,0 +1,989 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Setting the body to margins and background-image */
+body {
+  margin: 0 50px 50px 50px;
+  background-image: url('./background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+
+/*Styling the header */
+.header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 10px 10px 30px green inset;
+  color: white  ;
+  text-shadow: 2px 2px 4px darkblue;
+  border-radius: 3px;
+  font-size: 40px;
+  padding: 50px;
+  background-image: url("./header.jpg");
+  background-color: #cccccc;
+  height: 325px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+.navigation {
+  /* margin: 25px; */
+}
+.navigation button{
+  margin: 0px 7px;
+}
+
+/* creating job otpion */
+
+.dropbtn0  {
+  background-color: #3e8e41;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-bottom: 5px solid blue;
+}
+
+.dropdown0 {
+  position: relative;
+  display: inline-block;
+}
+
+/* End of job option */
+
+
+/* Creating drop down menu work from home */
+.dropbtn1 {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px ; 
+  text-shadow: none;
+}
+
+.dropdown-content1 a:hover {background-color: #f1f1f1;text-decoration: none;}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown1:hover .dropbtn1 {
+  background-color: #3e8e41;
+  border-bottom: 5px solid blue;
+  color: white;
+}
+/* End of work form home */
+
+/* Creating drop down menu for Recuiter */
+.dropbtn2 {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  background-color: white;
+  position: absolute;
+  min-width: 220px;
+  box-shadow: 0px 8px 25px 10px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: none;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px ;
+  text-shadow: none;
+}
+
+.dropdown-content2 a:hover {background-color:#f1f1f1;text-decoration: none;}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+  background-color: #3e8e41;
+  border-bottom: 5px solid blue;
+}
+/* End of Recuiter */
+
+/* Creating drop down menu for companies */
+.dropbtn3 {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content3 {
+  display: none;
+  background-color: white;
+  position: absolute;
+  min-width: 220px;
+  box-shadow: 0px 8px 25px 10px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: none;
+}
+
+.dropdown-content3 a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px ;
+  text-shadow: none;
+}
+
+.dropdown-content3 a:hover {background-color:#f1f1f1;text-decoration: none;}
+
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+
+.dropdown3:hover .dropbtn3 {
+  background-color: #3e8e41;
+  border-bottom: 5px solid blue;
+}
+/* End of company */
+
+/* Creating drop down menu for Services */
+.dropbtn4 {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content4 {
+  display: none;
+  background-color: white;
+  position: absolute;
+  min-width: 220px;
+  box-shadow: 0px 8px 25px 10px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: none;
+}
+
+.dropdown-content4 a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px ;
+  text-shadow: none;
+}
+
+.dropdown-content4 a:hover {background-color:#f1f1f1;text-decoration: none;}
+
+.dropdown4:hover .dropdown-content4 {
+  display: block;
+}
+
+.dropdown4:hover .dropbtn4 {
+  background-color: #3e8e41;
+  border-bottom: 5px solid blue;
+}
+/* End of Services */
+
+/* Creating drop down menu for Tools */
+.dropbtn5 {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown5 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content5 {
+  display: none;
+  background-color: white;
+  position: absolute;
+  min-width: 220px;
+  box-shadow: 0px 8px 25px 10px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: none;
+}
+
+.dropdown-content5 a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px ;
+  text-shadow: none;
+}
+
+.dropdown-content5 a:hover {background-color:#f1f1f1;text-decoration: none;}
+
+.dropdown5:hover .dropdown-content5 {
+  display: block;
+}
+
+.dropdown5:hover .dropbtn5 {
+  background-color: #3e8e41;
+  border-bottom: 5px solid blue;
+}
+/* End of Tools */
+
+/* Creating drop down menu for Employer */
+.dropbtn6 {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown6 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content6 {
+  display: none;
+  background-color: white;
+  position: absolute;
+  min-width: 220px;
+  box-shadow: 0px 8px 25px 10px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: none;
+}
+
+.dropdown-content6 a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px ;
+  text-shadow: none;
+}
+
+.dropdown-content6 a:hover {background-color:#f1f1f1;text-decoration: none;}
+
+.dropdown6:hover .dropdown-content6 {
+  display: block;
+}
+
+.dropdown6:hover .dropbtn6 {
+  background-color: #3e8e41;
+  border-bottom: 5px solid blue;
+}
+/* End of Recuiter */
+
+/* Creating drop down menu for Login */
+.dropbtn6 {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown6 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content6 {
+  display: none;
+  background-color: white;
+  position: absolute;
+  min-width: 220px;
+  box-shadow: 0px 8px 25px 10px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: none;
+}
+
+.dropdown-content6 a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px ;
+  text-shadow: none;
+}
+
+.dropdown-content6 a:hover {background-color:#f1f1f1;text-decoration: none;}
+
+.dropdown6:hover .dropdown-content6 {
+  display: block;
+}
+
+.dropdown6:hover .dropbtn6 {
+  background-color: #3e8e41;
+  border-bottom: 5px solid blue;
+}
+/* End of Login */
+
+/* Creating drop down menu for Employer */
+.dropbtn7 {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown7 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content7 {
+  display: none;
+  background-color: white;
+  position: absolute;
+  min-width: 220px;
+  box-shadow: 0px 8px 25px 10px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: none;
+}
+
+.dropdown-content7 a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px ;
+  text-shadow: none;
+}
+
+.dropdown-content7 a:hover {background-color:#f1f1f1;text-decoration: none;}
+
+.dropdown7:hover .dropdown-content7 {
+  display: block;
+}
+
+.dropdown7:hover .dropbtn7 {
+  background-color: #3e8e41;
+  border-bottom: 5px solid blue;
+}
+/* End of Employer */
+
+#b1 {
+ float: left;
+ margin-left: 200px;
+ margin-top: 40px;width: 225px;height: 40px;transition: width 2s, height 4s;
+}
+#b1:hover{
+  width: 255px;
+  height: 50px;
+}
+
+#b2 {
+  float: right;margin-right: 200px;margin-top: 40px;
+  width: 300px;height: 40px;transition: width 2s, height 4s;
+}
+#b2:hover{
+  width: 330px;
+  height: 50px;
+}
+
+/*Making the ul structure to in horizontal form*/
+.menu ul {
+  list-style-type: none;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.menu ul li {
+  float: left;
+  transition: 2s;
+}
+.menu ul li a {
+  display: inline-block;
+  padding: 12px 30px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;  
+  font-size: 14px;
+  text-shadow: none;
+}
+.menu ul li a:hover:not(.active) {
+  background-color: blue;
+  color: white;
+}
+.menu .active {
+  background-color: blue;
+  color: white;
+}
+
+/*Hiding list menu*/
+.list ul li {
+  display: none;
+  list-style-type: none;
+}
+.list ul li a {
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  
+}
+
+/* Creating notification page */
+small {
+  width: 120px;
+  height: 35px;
+  background-color: yellow;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 8s infinite;
+  color: blue;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px red;
+}
+
+
+#div1 {animation-timing-function: linear;}
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 100%;}
+}
+/* End of notification  */
+
+/*creating job page  */
+.part1 {
+  float: left;
+  width: 100%;
+  background-color: #f0f5f4;
+  border: none;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 0px 0px 50px green inset;
+}
+.part1.a1 {
+  padding: 10px;
+  width:73%;
+  background-color: lightgreen;
+}
+
+#searchInput {
+  background-image: url('./search-icon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin: 12px;
+}
+
+#locationInput {
+  background-image: url('./location-icon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  width: 30%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin: 12px;
+}
+
+.part1.a2 {
+  padding: 5px;
+  width:25%;
+  background-color: lightgreen;
+  line-height: 8px;
+}
+
+#animation {
+  width: 60px;
+  height: 30px;
+  background-color: orange;
+  position: relative;
+  animation-name: login;
+  animation-duration: 10s;
+  float: left;
+  margin-right: 90px;
+}
+
+@keyframes login {
+  0%   {background-color:orange; left:0px; top:0px;}
+  25%  {background-color:lightgreen; left:195px; top:0px;color: white;}
+  60%  {background-color:blue; left:0px; right:80px; color: white;}
+
+}
+
+.part2 {
+  float: left;
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2px;
+  box-shadow: 0px 0px .2px green inset;
+}
+.part2.a1 {
+  width: 24%;
+  margin: 5px;
+ background-color: 	 #ffccff;
+ color: black;
+ line-height: 18px;
+ box-shadow: 0px 0px 50px lightgoldenrodyellow  ;
+}
+
+.part2.a2 {
+  width: 70%;
+  color: blue;
+  border: none;
+}
+.part2.a3 {
+  width: 28%;
+  border: none;
+}
+
+.part3 {
+  float: left;
+  width: 100%;
+  /* background-color: lightblue; */
+  border: 2px solid lightgrey;
+  /* padding: 5px; */
+  border-radius: 5px;
+  margin: 2px;
+}
+.part3.a1 {
+  width: 24%;
+  border: none;
+  /* background-color: white; */
+}
+.part3.a1 img{
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+/* Creating automatic image changes part1*/
+.mySlides1 {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container1 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text1 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext1 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot1 {
+  height: 0px;
+  width: 0px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade1 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text1 {font-size: 11px}
+}
+/* End of automati images changes part1*/
+
+
+/* Creating automatic image changes part2*/
+.mySlides2 {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container2 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text2 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext2 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot2 {
+  height: 0px;
+  width: 0px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade2 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text2 {font-size: 11px}
+}
+/* End of automati images changes2 */
+
+/* Creating automatic image changes part3*/
+.mySlides3 {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container3 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text3 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext3 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot3 {
+  height: 0px;
+  width: 0px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade3 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text3 {font-size: 11px}
+}
+/* End of automati images changes part3 */
+
+/* Creating automatic image changes part4*/
+.mySlides4 {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container4 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text4 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext4 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot4 {
+  height: 0px;
+  width: 0px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade4 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text4 {font-size: 11px}
+}
+/* End of automati images changes part4*/
+
+.part4 {
+  float: left;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 2px;  
+}
+
+
+.part-additional {
+  float: left;
+  width: 100%;
+  background-color: lightseagreen;
+  /* border: 2px solid lightgrey; */
+  /* margin: 10px 0px; */
+  /* padding: 5px; */
+  /* border-radius: 5px; */
+  /* margin-right: 10px; */
+  /* margin-top: 10px; */
+  /* height: 125px; */
+  padding-bottom: 50px;
+
+}
+
+.part-additional.a1 {
+  padding: 5px;
+  width: 25%;
+  padding: 15px;
+}
+.part-additional.a2 {
+  padding: 5px;
+  width: 6%;
+  padding: 15px;
+}
+.part-additional .part-additional.a1 ul li {
+  list-style-type: none;
+}
+.part-additional .part-additional.a1 ul li a {
+  text-decoration: none;
+  color: black;
+}
+.part-additional .part-additional.a1 h4 {
+  color: white;
+}
+.part-additional .part-additional.a1 ul li a:hover {
+  color: white;
+}
+
+/* Styling the footer */
+.footer {
+  text-align: center;
+  padding: 12px;
+  background-color: grey;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* height: 80px; */
+  opacity: 0.8;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Hiding the horozontal menu and displaying the list menu*/
+@media only screen and (max-width: 1050px) {
+  div.menu ul  {
+    display: none;
+  }
+  .header .list ul li {
+    display: inline-block;
+  }
+  div.menu1 {
+    max-width: 100%;
+  }
+
+  div.footer {
+    padding: 0px;
+    font-size: 10px;
+    height: 15px;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  div.menu1 {
+    display: none;
+  }
+}
